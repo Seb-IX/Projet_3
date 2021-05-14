@@ -1,12 +1,12 @@
 # Requierement :
 
-- pip
 - conda
 
 # Data :
 
-Data use on this project is on <a href = https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/AI+Engineer/Project+2+Participez+%C3%A0+un+concours+sur+la+Smart+City/p2-arbres-fr.csv>on download here</a>.
+Data use on this project is on <a href = https://static.openfoodfacts.org/data/fr.openfoodfacts.org.products.csv>download here</a>.<br>
 
+unzip file and put on "/Solution/data/"
 
 # Conda environment :
 
