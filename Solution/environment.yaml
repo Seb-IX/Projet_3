@@ -1,13 +1,22 @@
 name: projet3
 channels:
+  - plotly
   - conda-forge
   - defaults
 dependencies:
+  - abseil-cpp=20210324.1=h0e60522_0
   - anyio=2.2.0=py39hcbf5309_0
   - appdirs=1.4.4=pyh9f0ad1d_0
   - argon2-cffi=20.1.0=py39hb82d6ee_2
+  - arrow-cpp=4.0.0=py39h55b1ac3_3_cpu
   - async_generator=1.10=py_0
   - attrs=20.3.0=pyhd3deb0d_0
+  - aws-c-cal=0.5.7=h25e91e5_1
+  - aws-c-common=0.5.11=h8ffe710_0
+  - aws-c-event-stream=0.2.7=h2e65dc6_5
+  - aws-c-io=0.9.12=ha9e6ac0_2
+  - aws-checksums=0.1.11=ha9e6ac0_6
+  - aws-sdk-cpp=1.8.186=h496e9c5_2
   - backcall=0.2.0=pyh9f0ad1d_0
   - backports=1.0=py_2
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
@@ -17,13 +26,16 @@ dependencies:
   - brotli=1.0.9=h0e60522_4
   - brotlipy=0.7.0=py39hb82d6ee_1001
   - bzip2=1.0.8=h8ffe710_4
+  - c-ares=1.17.1=h8ffe710_1
   - ca-certificates=2020.12.5=h5b45459_0
   - certifi=2020.12.5=py39hcbf5309_1
   - cffi=1.14.5=py39h0878f49_0
   - chardet=4.0.0=py39hcbf5309_1
   - charls=2.2.0=h39d44d4_0
+  - chart-studio=1.1.0=py_0
   - cloudpickle=1.6.0=py_0
   - colorama=0.4.4=pyh9f0ad1d_0
+  - cramjam=2.3.1=py39h94cc256_1
   - cryptography=3.4.7=py39hd8d06c1_0
   - cycler=0.10.0=py_2
   - cytoolz=0.11.0=py39hb82d6ee_3
@@ -32,9 +44,13 @@ dependencies:
   - defusedxml=0.7.1=pyhd8ed1ab_0
   - deprecation=2.1.0=pyh9f0ad1d_0
   - entrypoints=0.3=pyhd8ed1ab_1003
+  - fastparquet=0.6.3=py39h5d4886f_0
   - freetype=2.10.4=h546665d_1
   - fsspec=2021.4.0=pyhd8ed1ab_0
+  - gflags=2.2.2=ha925a31_1004
   - giflib=5.2.1=h8d14728_2
+  - glog=0.5.0=h4797de2_0
+  - grpc-cpp=1.37.1=h586195c_2
   - icu=68.1=h0e60522_0
   - idna=2.10=pyh9f0ad1d_0
   - imagecodecs=2021.3.31=py39h433ed9d_0
@@ -63,17 +79,23 @@ dependencies:
   - jupyterlab_widgets=1.0.0=pyhd8ed1ab_1
   - jxrlib=1.1=h8ffe710_2
   - kiwisolver=1.3.1=py39h2e07f2f_1
+  - krb5=1.19.1=hbae68bd_0
   - lcms2=2.12=h2a16943_0
   - lerc=2.2.1=h0e60522_0
   - libaec=1.0.4=h39d44d4_1
   - libblas=3.9.0=9_mkl
   - libcblas=3.9.0=9_mkl
   - libclang=11.1.0=default_h5c34c98_0
+  - libcurl=7.76.1=h789b8ee_2
   - libdeflate=1.7=h8ffe710_5
   - liblapack=3.9.0=9_mkl
   - libpng=1.6.37=h1d00b33_2
+  - libprotobuf=3.16.0=h7755175_0
   - libsodium=1.0.18=h8d14728_1
+  - libssh2=1.9.0=h680486a_6
+  - libthrift=0.14.1=h636ae23_1
   - libtiff=4.2.0=hc10be44_1
+  - libutf8proc=2.6.1=hcb41399_0
   - libwebp-base=1.2.0=h8ffe710_2
   - libzopfli=1.0.3=h0e60522_0
   - locket=0.2.0=py_2
@@ -104,16 +126,19 @@ dependencies:
   - pandas=1.2.4=py39h2e25243_0
   - pandoc=2.13=h8ffe710_0
   - pandocfilters=1.4.2=py_1
+  - parquet-cpp=1.5.1=2
   - parso=0.8.2=pyhd8ed1ab_0
   - partd=1.2.0=pyhd8ed1ab_0
   - patsy=0.5.1=py_0
   - pickleshare=0.7.5=py_1003
   - pillow=8.1.2=py39h1a9d4f7_1
   - pip=21.1.1=pyhd8ed1ab_0
+  - plotly=4.14.3=py_0
   - pooch=1.3.0=pyhd8ed1ab_0
   - prometheus_client=0.10.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.18=pyha770c72_0
   - prompt_toolkit=3.0.18=hd8ed1ab_0
+  - pyarrow=4.0.0=py39hf9247be_3_cpu
   - pycparser=2.20=pyh9f0ad1d_2
   - pygments=2.8.1=pyhd8ed1ab_0
   - pyopenssl=20.0.1=pyhd8ed1ab_0
@@ -138,7 +163,9 @@ dependencies:
   - qt=5.12.9=h5909a2a_4
   - qtconsole=5.1.0=pyhd8ed1ab_0
   - qtpy=1.9.0=py_0
+  - re2=2021.04.01=h0e60522_0
   - requests=2.25.1=pyhd3deb0d_0
+  - retrying=1.3.3=py_2
   - scikit-image=0.18.1=py39h2e25243_0
   - scipy=1.6.3=py39hc0c34ad_0
   - seaborn=0.11.1=hd8ed1ab_1
@@ -153,6 +180,7 @@ dependencies:
   - tbb=2021.2.0=h2d74725_0
   - terminado=0.9.4=py39hcbf5309_0
   - testpath=0.4.4=py_0
+  - thrift=0.13.0=py39h415ef7b_2
   - tifffile=2021.4.8=pyhd8ed1ab_0
   - tk=8.6.10=h8ffe710_1
   - tomlkit=0.7.0=py39hcbf5309_3
@@ -180,6 +208,8 @@ dependencies:
   - zlib=1.2.11=h62dcd97_1010
   - zstd=1.4.9=h6255e5f_0
   - pip:
+    - colorlover==0.3.0
+    - cufflinks==0.17.3
     - joblib==1.0.1
     - scikit-learn==0.24.2
     - sklearn==0.0
