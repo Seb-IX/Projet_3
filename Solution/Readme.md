@@ -39,5 +39,19 @@ To install dependancy : <br>
 ## Add environment to Jyputer notebook :
 
 This tells jupyter to take the current environment("projet3")<br>
-`python -m ipykernel install --user --name=projet3`
+`python -m ipykernel install --user --name=projet3`<br>
 
+
+# Run serve Voila (don't forget to create environment):
+
+Linux / MacOS => Run web application :<br>
+`voila P03_02_web.ipynb` <br>
+OR<br>
+`voila P03_01_notebook.ipynb`<br>
+
+Windows user :<br>
+Use cmd script "run_serve_notebook.cmd" to run global notebook or "run_serve_web.cmd" to run prototype.
+
+# Create clean_data.csv
+
+This file can be created with P03_01_notebook, to do this, uncomment cell in "Imputation" that mentions it.
