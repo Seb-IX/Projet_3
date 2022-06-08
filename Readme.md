@@ -1,13 +1,10 @@
-# Projet configuration
-<ul>
-<li>/Enoncé/ :<br>
-	This directory contains statement for project in french</li>
-<li>/Présentation/ :<br>
-	This directory contains my powerpoint for jury to validated my project</li>
-<li>/Ressource/ :<br>
-	This directory contains ressources to helped or needed for the project</li>
-<li>/Solution/ :<br>
-	This directory contains the solution and the final test submitted to the jury to validate my project.</li>
-</ul>	
+# Projet openfoodfact
+<p align="center">
+<img src="https://github.com/Seb-IX/Projet_3/blob/main/Solution/data/img/logo-sante-publique-fr.png" style="width:400px;">
+</p>
 
-**By TUCCIO Sébastien**
+This project consists in preparing a dataset for a public health organization (Santé publique France).
+
+For this, it is necessary to analyze, clean and process the dataset of the <a href="https://world.openfoodfacts.org/">openfoodfact</a> site which contains different information about food.
+
+> You will find the different statistical analysis, cleaning and processing of openfoodfact data in the "/Solution/" folder.
